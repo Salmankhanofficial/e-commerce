@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom:after {
+  display: block;
+  content: "";
+  width: inherit;
+  border-bottom: solid 5px rgb(198, 198, 13);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.custom:hover:after {
+  transform: scaleX(1);
+}
+
+.custom:after {
+  transform-origin: left;
+}
