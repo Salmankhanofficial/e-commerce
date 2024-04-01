@@ -7,8 +7,10 @@ const App = () => {
     <div>
       <Navbar/>
       <Footer/>
+      sdfsd
     </div>
   )
 }
+
 
 export default App
